@@ -26,3 +26,6 @@ total_Amount decimal (10,2),
 foreign key (customer_Id) references Customers(customer_Id),
 foreign key (book_Id) references Books(book_Id)
 );
+SELECT * FROM Books;
+SELECT * FROM customers;
+Select * from Orders;
