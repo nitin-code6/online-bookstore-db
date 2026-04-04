@@ -1,11 +1,11 @@
-# 📚 Online Bookstore Database (MySQL)
+#  Online Bookstore Database (MySQL)
 
-## 📌 Project Overview
+##  Project Overview
 This project features a robust **relational database implementation for an online bookstore** using MySQL. It manages books, customers, and orders while demonstrating core SQL proficiencies, including schema design, data normalization, complex joins, aggregations, and subqueries.
 
 ---
 
-## 🗂 Dataset
+##  Dataset
 The database is populated using three primary CSV files:
 
 | File | Description |
@@ -16,7 +16,7 @@ The database is populated using three primary CSV files:
 
 ---
 
-## 🗄 Database Schema
+##  Database Schema
 The database utilizes a normalized design consisting of three interconnected tables:
 
 ### 1. Books
@@ -39,7 +39,7 @@ The database utilizes a normalized design consisting of three interconnected tab
 
 ---
 
-## 🧠 SQL Concepts Utilized
+##  SQL Concepts Utilized
 *   **DDL & DML:** Schema definition and efficient data ingestion from CSV files.
 *   **Data Retrieval:** Filtering (`WHERE`), sorting (`ORDER BY`), and pagination (`LIMIT`).
 *   **Relational Logic:** Combining datasets using `INNER JOIN` and `LEFT JOIN`.
@@ -49,7 +49,7 @@ The database utilizes a normalized design consisting of three interconnected tab
 
 ---
 
-## 📊 Sample Queries
+##  Sample Queries
 
 | Analysis Description | SQL Query |
 | :--- | :--- |
@@ -63,7 +63,7 @@ The database utilizes a normalized design consisting of three interconnected tab
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ```text
 online-bookstore-db/
 │
@@ -80,14 +80,14 @@ online-bookstore-db/
 
 ---
 
-## 🚀 Technologies Used
+##  Technologies Used
 *   **MySQL:** Relational Database Management System (RDBMS)
 *   **SQL:** Structured Query Language for data manipulation and analysis
 *   **Git & GitHub:** Version control and repository hosting
 
 ---
 
-## 🔧 How to Run
+##  How to Run
 
 1.  **Initialize the Database:**
     ```sql
@@ -108,7 +108,7 @@ online-bookstore-db/
 
 ---
 
-## 📈 Key Insights
+##  Key Insights
 *   **Revenue Tracking:** Total sales performance is monitored via `SUM(total_amount)`.
 *   **Market Trends:** Identifying best-selling genres by joining product and sales data.
 *   **Operational Efficiency:** Calculating real-time stock availability by reconciling initial inventory with sales volume.
@@ -116,5 +116,5 @@ online-bookstore-db/
 
 ---
 
-## 📝 Conclusion
+##  Conclusion
 This project demonstrates a comprehensive end-to-end workflow for database design and data analysis. By modeling a real-world bookstore scenario, it showcases proficiency in SQL development, data modeling, and relational algebra—core skills essential for Data Engineering, Backend Development, and Data Analysis roles.
